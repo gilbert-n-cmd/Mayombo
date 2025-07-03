@@ -693,6 +693,43 @@ nav .dropdown-submenu:hover .dropdown-submenu-content {
           left: 0;
           width: 100%;
           background: white;
-          z-index: 9999;
+          z-index: 999；
+        .search-bar  {
+            padding: 20px;
+            max-width: 800px;
+            margin: 20px auto;
         }
+        
+        /* Style for the search box */
+        .gsc-control-cse {
+            padding: 15px !important;
+            border-radius: 8px !important;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1) !important;
+        }
+        
+        /* Style for search results */
+        .gsc-results {
+            min-height: 400px !important; /* Sets minimum height for results area */
+            margin-top: 20px !important;
+        }
+        
+        /* Style for individual results */
+        .gsc-result {
+            padding: 15px 0 !important;
+            border-bottom: 1px solid #eee !important;
+        }
+        
+        /* Style for result titles */
+        .gs-title {
+            font-size: 18px !important;
+            line-height: 1.4 !important;
+        }
+        
+        /* Style for result snippets */
+        .gs-snippet {
+            font-size: 15px !important;
+            line-height: 1.5 !important;
+            margin-top: 8px !important;
+        }
+
          
