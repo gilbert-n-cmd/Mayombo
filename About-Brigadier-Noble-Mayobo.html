@@ -96,11 +96,6 @@ iframe, img {
         /* justify-content removed */
         text-align: center; /* Optional */
     }
-        .brigadier iframe{
-          width: 90%;
-          height: 90%;
-        
-    }
 }
     </style>
 </head>
@@ -196,10 +191,13 @@ iframe, img {
        
     </div>
   <div class="search-bar" style="display:none;">
-    <form action="search_results.php" method="GET" style="display:flex; gap:5px;">
+    <!---<form action="search_results.php" method="GET" style="display:flex; gap:5px;">
       <input type="text" name="q" placeholder="Search..." required />
       <button type="submit">Search</button>
-    </form>
+    </form>--->
+    <script async src="https://cse.google.com/cse.js?cx=b374e5ea123af4b1b">
+    </script>
+<div class="gcse-search"></div>    
   </div>
   <button id="backToTopBtn" onclick="scrollToTop()">↑</button>
   <!--<div class="brightness-controls">
