@@ -340,5 +340,12 @@ iframe, img {
     </div>
   </footer>
   <script src="script.js"></script>
+  <script>
+    document.querySelector('.search-toggle').addEventListener('click', function () {
+  const searchBar = document.querySelector('.search-bar');
+  searchBar.style.display = (searchBar.style.display === 'none') ? 'block' : 'none';
+});
+
+  </script>
 </body>
 </html>
